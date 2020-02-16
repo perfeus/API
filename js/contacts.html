@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Контакты</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Style-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <img class="img_fluid" alt="" src="../img/logo.jpg" height="100rem">
+            <!--<a class="navbar-brand" href="#">Ассистент</a>-->
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="request.html">Форма запроса</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-secondary" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Contacts-->
+    <section class="contact">
+        <div class="container">
+            <div class="text-center py-5">
+                <h2 class="py-3">Контакты</h2>
+                <div class="mx-auto heading-line"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.127696790676!2d37.61348231602697!3d55.756283899190905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a51ada84361%3A0x58d26b301983014c!2z0J7RhdC-0YLQvdGL0Lkg0KDRj9C0!5e0!3m2!1sru!2sru!4v1581277240222!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                    <!--Google map-->
+                </div>
+                <form class="col-lg-6" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSem1rRZhzlk6wClDpZ1B1Lw6jGZi6tP32vGWfxpIBNu5ixtng/formResponse" target="_self" method="POST">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Адрес электронной почты</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="entry.1503950015">
+                        <small id="emailHelp" class="form-text text-muted">Мы никогда не передадим информацию третьим лицам</small>
+                    </div>                    
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" class="form-control" name="entry.617949640">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" class="form-control" placeholder="Введите сообщение" rows="5" name="entry.636776544"></textarea>
+                    </div>
+                    <button class="submit" class="btn btn-lg btn-outline-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <div class="container">
+        <footer clas="footer">
+            <div class="text-center py-5">
+                <h2 class="py-3">Ассистент</h2>
+                <div class="mx-auto heading-line"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p>Ассистент это алгоритм разработанный нашей компанией, который позволяет определять наиболее востребованные навыки у работодателя в любой области деятельнсоти или профессии. Для поиска Ассистент использует самые популярные сайты для поиска вакансий в России и странах СНГ, обрабатывая сотни тысяч объявлений.</p>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="request.html">Форма запроса</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright text-center py-3 border-top text-muted">
+                <p>Разработал Алексей Измалкин &copy; 2020</p>
+            </div>
+        </footer>
+    </div>      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--CHAT-BOT-->
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = {"appId":"2e8a34a9c5162432f2d8c06ef25cbdea7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <title>Форма запроса</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Style-->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <img class="img_fluid" alt="" src="../img/logo.jpg" height="100rem">
+            <!--<a class="navbar-brand" href="#">Ассистент</a>-->
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Форма запроса</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-secondary" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Reauest -->
+    <section class="home container">
+        <div class="row mt-5">
+            <div class="col-lg-6 mt-5 py-5 pl-5">
+                <img class="img-fluid" alt="" src="../img/search.jpg">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <div class="row">
+                    <div class="home-content offset-lg-1 col-lg-10">
+                        <h1 class="pb-3">Запрос</h1>
+                        <p class="pb-3">Для того чтобы изнать наиболее популярные навыки для вышей профессии, просто введите ее название в поле поиска</p>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    
+    <!--Footer-->
+    <div class="container">
+        <footer clas="footer">
+            <div class="text-center py-5">
+                <h2 class="py-3">Ассистент</h2>
+                <div class="mx-auto heading-line"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p>Ассистент это алгоритм разработанный нашей компанией, который позволяет определять наиболее востребованные навыки у работодателя в любой области деятельнсоти или профессии. Для поиска Ассистент использует самые популярные сайты для поиска вакансий в России и странах СНГ, обрабатывая сотни тысяч объявлений.</p>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Форма запроса</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright text-center py-3 border-top text-muted">
+                <p>Разработал Алексей Измалкин &copy; 2020</p>
+            </div>
+        </footer>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--CHAT-BOT-->
+    <script type="text/javascript">
+        (function(d, m){
+            var kommunicateSettings = {"appId":"2e8a34a9c5162432f2d8c06ef25cbdea7","popupWidget":true,"automaticChatOpenOnNavigation":true};
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+    </script>
+</body>
+</html>
